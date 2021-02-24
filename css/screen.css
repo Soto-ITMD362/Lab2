@@ -1,0 +1,33 @@
+html{
+	font-family: 'Times New Roman', sans-serif;
+	font-size: 1.125em;
+	line-height: 1.3em;
+	padding: 1.3em;
+	text-align: center;
+	background: #fcbacb
+}
+
+h1{
+	font-family: 'Times New Roman', sans-serif;
+	font-size: 1.8em;
+	padding-top: 0.4em;
+	padding-bottom: 0.5em;
+	line-height: 1.1em;
+	color: #000000;
+}
+
+body{
+	background: #FC94AF;
+	border: 0.2em solid #000000
+}
+
+form{
+	font-size: 1.6em;
+	padding-bottom: 0.6em;
+}
+
+div{
+	padding-bottom: 1em;
+	list-style: none;
+	padding-left: 0.4;
+}

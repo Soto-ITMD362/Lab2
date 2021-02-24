@@ -11,19 +11,19 @@
   <header id="header">
     <h1>Information Form</h1>
   </header>
-  <form method="get" action="autocomplete=">
-    <fieldset>
-      <div>
-        <label>Enter Email Address: <input type="email" placeholder="Email Address"></label>
-      </div>
-      <div>
-        <label>Enter Phone Number: <input type="text" placeholder="Phone Number"></label>
-      </div>
-      <div>
-        <label>Enter Date Of Birth: <input type="text" placeholder="Birthday"></label>
-      </div>
-    </fieldset>
-    <input type="submit" value="Submit">
+  <form autocomplete="on" action="#null" method="get">
+    <div>
+      <label for="mail">Enter Email Address: <input type="email" id="mail" name="mail" placeholder="Email Address"></label>
+    </div>
+    <div>
+      <label for="phone">Enter Phone Number: <input type="tel" id="phone" name="phone" placeholder="Phone Number"></label>
+    </div>
+    <div>
+      <label for="birthday">Enter Date Of Birth: <input type="date" id="birthday" name="birthday"></label>
+    </div>
+    <div>
+      <label for="finish"> Submit: <input type="submit" id="finish" name="finish"> </label>
+    </div>
   </form>
 </body>
 </html>
